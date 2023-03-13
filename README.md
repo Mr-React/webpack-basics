@@ -32,3 +32,6 @@ Webpack-Basics
         - `path: path.resolve(__dirname, "dist")` indicate output file path of project
         - `filename: "main.js"` indicate output file name`
 
+5. install sass module
+    1. `npm i -D sass style-loader css-loader sass-loader` command
+    2. add `module` properties in webpack.config.js file
